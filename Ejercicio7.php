@@ -1,27 +1,25 @@
-<!DOCTYPE html>
 <html>
 <head>
-	<title>Ejercicio7</title>
-	<meta charset="utf-8">
 </head>
 <body>
-
-	<?php	
-
-	function calculo ($numero){
-
-		if ($numero % 2 == 0) {
-			return $numero / 2;
-		}
-
-		else 
-			return $numero * 3 + 1;
-
-	}
-
-	echo calculo(1);
-
-	?>
-
 </body>
+
+<?php
+
+$num = 40;
+
+while($num != 1){
+
+if($num % 2 == 0)
+$num/=2;
+else
+$num= $num*3+1;
+
+echo $num." ";
+}
+
+
+?>
+
+
 </html>
