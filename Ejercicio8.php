@@ -18,7 +18,7 @@
 
 			for ($j = 1; $j <= $centro; $j = $j + 1)
 
-				echo "_";
+				echo "&nbsp&nbsp";
 
 			for ($j = 1; $j <= $i; $j = $j + 1)
 
